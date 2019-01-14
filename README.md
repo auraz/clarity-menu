@@ -11,6 +11,11 @@ pip install rumps
 # configuration
 
 Edit settings.py to be similar with output of `sw` command.
+chmod +x menu.py
+
+# run
+
+./menu.py
 
 # notes
 
