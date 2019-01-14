@@ -23,7 +23,7 @@ Development:
 
 Everyday use:
 
-Create sh file somewhere, name it clarity.sh (for example in ~/bin folder, if you want, add that folder to path in ~/.bash_profile)
+Create sh file somewhere, name it clarity.sh
 ```
 #! /bin/bash
 ~/.virtualenvs/clarity-menu/bin/python ~/repos/desktops/clarity-menu/menu.py &
