@@ -6,11 +6,13 @@ Menu provides UI to quickly switch desktops for http://www.shirt-ediss.me/clarit
 # installation
 
 mkvirtualenv clarity-code --python=python3
+
 pip install rumps
 
 # configuration
 
 Edit settings.py to be similar with output of `sw` command.
+
 chmod +x menu.py
 
 # run
