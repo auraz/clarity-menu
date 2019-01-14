@@ -17,7 +17,19 @@ chmod +x menu.py
 
 # run
 
-./menu.py
+Dev -  ./menu.py
+
+Everyday use:
+
+Create sh file somewhere, name it clarity.sh (for example in ~/bin folder, if you want, add that folder to path in ~/.bash_profile)
+```
+#! /bin/bash
+~/.virtualenvs/clarity-menu/bin/python ~/repos/desktops/clarity-menu/menu.py &
+```
+chmod +x clarity.sh
+Add this file to login items in OS X settings.
+
+
 
 # notes
 
