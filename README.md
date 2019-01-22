@@ -3,6 +3,8 @@ Statusbar Menu for clarity-code for OS X
 
 Menu provides UI to quickly switch desktops for http://www.shirt-ediss.me/clarity/
 
+![](/images/demo.png?raw=true "Demo")
+
 # installation
 
 mkvirtualenv clarity-code --python=python3
