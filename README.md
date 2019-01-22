@@ -24,6 +24,7 @@ Development:
 ./menu.py
 
 Everyday use: 
+
 (Note: this is workaround, as py2app does not work for some reason.)
 
 1) Create sh file somewhere, name it clarity.sh
@@ -31,9 +32,11 @@ Everyday use:
 #! /bin/bash
 ~/.virtualenvs/clarity-menu/bin/python ~/repos/desktops/clarity-menu/menu.py &
 ```
-chmod +x clarity.sh
+
+`chmod +x clarity.sh`
 
 2) In automator create application, with single entry: Run AppleScript. 
+
 (Note: Change iTerm to Terminal, if you don't have iTerm)
 ```
 on run {input, parameters}
@@ -49,11 +52,6 @@ on run {input, parameters}
 end run
 ```
 3) Add automator app from step 2 to login items in OS X settings.
-
-
-# screenshot
-
-
 
 # notes
 
